@@ -5,11 +5,11 @@ public class B {
     }
     public static B getB() {
         if (obj == null) {
-            System.out.println("ilk kez instance olusturuyor");
+            System.out.println("instance is created for the first time");
             obj = new B();
         }
         else {
-            System.out.println("daha once instance olusturulmus");
+            System.out.println("instance has been created before");
         }
         return obj;
     }

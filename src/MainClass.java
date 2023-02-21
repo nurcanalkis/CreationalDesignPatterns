@@ -9,6 +9,7 @@ import Builder.IglooHouseBuilder;
 import BuilderCd.CDBuilder;
 import BuilderCd.CDType;
 import Prototype.EmployeeRecord;
+import Singleton2.Singleton2;
 import factorymethod.DomesticPlan;
 import factorymethod.GetPlanFactory;
 import factorymethod.Plan;
@@ -16,11 +17,14 @@ import singleton.A;
 import singleton.B;
 
 public class MainClass {
+    private static Singleton2 o1 = null;
+    private static Singleton2 o2 = null;
+    private static Singleton2 o3 = null;
 
     public static void main(String[] args) {
 
         //SINGLETON
-      /*   System.out.println("main class is operating");
+      System.out.println("main class is operating");
         A a = A.getA();
         a.doSomething();
 
@@ -32,7 +36,29 @@ public class MainClass {
 
         if (b2.equals(b))
             System.out.println("instances are same");
-       */
+
+        //Singleton2
+
+
+               new Thread(() -> {
+                o1 = Singleton2.getInstance();
+            }).start();
+
+            new Thread(() -> {
+                o2 = Singleton2.getInstance();
+            }).start();
+
+            new Thread(() -> {
+                o3 = Singleton2.getInstance();
+            }).start();
+
+            if (o1 == o2 && o1 == o3 && o2 == o3)
+                System.out.println("The objects are the same...");
+            else
+                System.out.println("Not same");
+
+
+
 /*
         //FACTORY METHOD
         GetPlanFactory fact = new GetPlanFactory();
@@ -76,7 +102,7 @@ public class MainClass {
         cdType2.showItems();
 */
 
-
+/*
 // PROTOTYPE
 
         EmployeeRecord e1 = new EmployeeRecord(101, "Nurcan", "instructor", 10000, "a@b.com");
@@ -88,6 +114,9 @@ public class MainClass {
         e2.showRecord();
         e1.showRecord();
 
+ */
+
 
     }
 }
+
