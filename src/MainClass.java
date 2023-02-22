@@ -36,7 +36,7 @@ public class MainClass {
 
         if (b2.equals(b))
             System.out.println("instances are same");
-
+/*
         //Singleton2
 
 
@@ -56,6 +56,8 @@ public class MainClass {
                 System.out.println("The objects are the same...");
             else
                 System.out.println("Not same");
+
+ */
 
 
 
