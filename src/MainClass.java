@@ -1,18 +1,4 @@
-import AbstractFactory.AbstractFactory;
-import AbstractFactory.FactoryCreator;
-import AbstractFactory.Loan;
-import AbstractFactory.Bank;
-import Builder.CivilEngineer;
-import Builder.House;
-import Builder.HouseBuilder;
-import Builder.IglooHouseBuilder;
-import BuilderCd.CDBuilder;
-import BuilderCd.CDType;
-import Prototype.EmployeeRecord;
 import Singleton2.Singleton2;
-import factorymethod.DomesticPlan;
-import factorymethod.GetPlanFactory;
-import factorymethod.Plan;
 import singleton.A;
 import singleton.B;
 

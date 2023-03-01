@@ -1,4 +1,4 @@
-package factorymethod;
+package factorymethod_plan;
 
 public class CommercialPlan extends Plan{
     @Override
