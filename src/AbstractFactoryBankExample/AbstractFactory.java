@@ -1,4 +1,4 @@
-package AbstractFactoryBankLoanExample;
+package AbstractFactoryBankExample;
 
 public abstract class AbstractFactory {
     public abstract Bank getBank(String bank);

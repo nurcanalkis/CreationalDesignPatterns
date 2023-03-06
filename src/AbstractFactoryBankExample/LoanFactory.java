@@ -1,4 +1,4 @@
-package AbstractFactoryBankLoanExample;
+package AbstractFactoryBankExample;
 
 public class LoanFactory extends AbstractFactory {
 

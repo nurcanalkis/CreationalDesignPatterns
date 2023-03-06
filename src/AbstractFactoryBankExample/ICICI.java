@@ -1,4 +1,4 @@
-package AbstractFactoryBankLoanExample;
+package AbstractFactoryBankExample;
 
 class ICICI implements Bank {
     private final String BNAME;

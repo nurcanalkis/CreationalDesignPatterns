@@ -1,4 +1,4 @@
-package AbstractFactoryBankLoanExample;
+package AbstractFactoryBankExample;
 
 public class AbstractFactoryExample {
     public static void main(String[] args) {
