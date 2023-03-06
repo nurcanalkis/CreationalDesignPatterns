@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
 class HDFC implements Bank {
     private final String BNAME;

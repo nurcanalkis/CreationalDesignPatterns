@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
 public interface Bank {
     String getBankName();

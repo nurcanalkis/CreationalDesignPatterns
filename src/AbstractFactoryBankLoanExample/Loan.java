@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
 public abstract class Loan {
     protected double rate;

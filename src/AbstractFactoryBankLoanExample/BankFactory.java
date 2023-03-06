@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
 class BankFactory extends AbstractFactory {
     @Override

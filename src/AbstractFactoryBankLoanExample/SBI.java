@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
     class SBI implements Bank{
         private final String BNAME;

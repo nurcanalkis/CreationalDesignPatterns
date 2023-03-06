@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactoryBankLoanExample;
 
 class BusinessLoan extends Loan{
     public void getInterestRate(double r)
